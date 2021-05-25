@@ -397,7 +397,6 @@ padding-top: 100px;
     display: none;
 }
 
-
 /*-----Pruduct Details page----*/
 .single-product{
     margin-top: 80px;
@@ -435,8 +434,12 @@ input:focus{
 
 /*-----About------*/
 #title-about{
-color: #ff523b;
-margin-left: 0;
+    line-height: 47px;
+    font-size: 52px;
+    margin-left: 10px;
+    padding-top: 20px;
+    color: #ff523b;
+    margin-left: 0;
 }
 /*------Cart  Items---------*/
 
