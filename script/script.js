@@ -33,87 +33,18 @@ smallImg[3].onclick = function()
  productImg.src = smallImg[3].src;
 }
 
-// Category products
-
-
-/*function categoryBasic(){
-    alert("estas en function")
-    offAdvanced();
-    function offAdvanced(){
-        let x = document.querySelector(".col4 .advanced");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'none';
-        }
-    }
-    offIntermediate();
-    function offIntermediate(){
-        let x = document.querySelector(".col4 .intermediate");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'none';
-        }
-    }
-    onBasic();
-    function onBasic(){
-        let x = document.querySelector(".col4 .basic");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'block';
+// cart
+/*
+class cart{
+    //Añadir producto 
+    buyProduct(){
+        e.preventDefault();
+        if(e.target.classList.contains('add-cart')){
+            const producto = e.target-parentElement.parentElement;
+            this.leerDatosProducto(producto)
         }
     }
 }
 
-function categoryIntermediate(){
-    offAdvanced();
-    function offAdvanced(){
-        let x = document.querySelector(".col4 .advanced");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'none';
-        }
-    }
-    onIntermediate()
-    function onIntermediate(){
-        let x = document.querySelector(".col4 .intermediate");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'block';
-        }
-    }
-    offBasic()
-    function offBasic(){
-        let x = document.querySelector(".col4 .basic");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'none';
-        }
-    }
-}
-
-function categoryAdvanced(){
-    onAdvanced();
-    function onAdvanced(){
-        let x = document.querySelector(".col4 .advanced");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'block';
-        }
-    }
-    offIntermediate();
-    function offIntermediate(){
-        let x = document.querySelector(".col4 .intermediate");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'none';
-        }
-    }
-    offBasic();
-    function offBasic(){
-        let x = document.querySelector(".col4 .basic");
-        let i;
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = 'none';
-        }
-    }
-}*/
+const carro = new cart();
+const carrito = document.getElementById("")*/
