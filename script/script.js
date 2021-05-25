@@ -2,13 +2,13 @@
 
 var menuItems = document.getElementById('menuItems');
 
-menuItems.style.maxHeight = "0px"
+menuItems.style.maxHeight = "0px";
 
 function menuToggle(){
     if(menuItems.style.maxHeight == "0px"){
-        menuItems.style.maxHeight = "200px" 
+        menuItems.style.maxHeight = "200px";
     }else{
-        menuItems.style.maxHeight = "0px"
+        menuItems.style.maxHeight = "0px";
     }
 }
 
@@ -35,81 +35,85 @@ smallImg[3].onclick = function()
 
 // Category products
 
-function categoryBasic(){
+
+/*function categoryBasic(){
+    alert("estas en function")
     offAdvanced();
-    let offAdvanced=() =>{
-        let x = document.getElementsByClassName("advanced");
+    function offAdvanced(){
+        let x = document.querySelector(".col4 .advanced");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'none';
         }
     }
     offIntermediate();
-    let offIntermediate=() =>{
-        let x = document.getElementsByClassName("intermediate");
+    function offIntermediate(){
+        let x = document.querySelector(".col4 .intermediate");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'none';
         }
     }
     onBasic();
-    let onBasic=() =>{
-        let x = document.getElementsByClassName("basic");
+    function onBasic(){
+        let x = document.querySelector(".col4 .basic");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'block';
         }
     }
 }
+
 function categoryIntermediate(){
-    
-    let offAdvanced=() =>{
-        let x = document.getElementsByClassName("advanced");
+    offAdvanced();
+    function offAdvanced(){
+        let x = document.querySelector(".col4 .advanced");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'none';
         }
     }
-    
-    let onIntermediate=() =>{
-        let x = document.getElementsByClassName("intermediate");
+    onIntermediate()
+    function onIntermediate(){
+        let x = document.querySelector(".col4 .intermediate");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'block';
         }
     }
-    
-    let offBasic=() =>{
-        let x = document.getElementsByClassName("basic");
+    offBasic()
+    function offBasic(){
+        let x = document.querySelector(".col4 .basic");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'none';
         }
     }
 }
+
 function categoryAdvanced(){
     onAdvanced();
-    let onAdvanced=() =>{
-        let x = document.getElementsByClassName("advanced");
+    function onAdvanced(){
+        let x = document.querySelector(".col4 .advanced");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'block';
         }
     }
     offIntermediate();
-    let offIntermediate=() =>{
-        let x = document.getElementsByClassName("intermediate");
+    function offIntermediate(){
+        let x = document.querySelector(".col4 .intermediate");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'none';
         }
     }
     offBasic();
-    let offBasic=() =>{
-        let x = document.getElementsByClassName("basic");
+    function offBasic(){
+        let x = document.querySelector(".col4 .basic");
         let i;
         for (i = 0; i < x.length; i++) {
         x[i].style.display = 'none';
         }
     }
-}
+}*/
