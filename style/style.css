@@ -433,6 +433,11 @@ input:focus{
     cursor: pointer;
 }
 
+/*-----About------*/
+.title-about{
+color: #ff523b;
+margin-left: 0;
+}
 /*------Cart  Items---------*/
 
 .cart-page{
