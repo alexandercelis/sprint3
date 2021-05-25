@@ -436,10 +436,10 @@ input:focus{
 #title-about{
     line-height: 47px;
     font-size: 52px;
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
     padding-top: 20px;
     color: #ff523b;
-    margin-left: 0;
 }
 /*------Cart  Items---------*/
 
