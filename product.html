@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/bot.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+   <!--JS-->
+    <script src="/script/product.js"></script>
+    <title>Products</title>
+</head>
+<body>
+
+<!--Header-->
+<div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/Droid Go!.png" alt="logo" width="180px">
+            </div>
+
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="img/bolsa-de-la-compra.png" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menuToggle()">
+        </div>
+</div>  
+
+<!--Categories-->
+<div class="categories">
+    <h2 class="titleCat">Categories</h2>
+    <div class="small-container">
+        <div class="row">
+
+            <div class="col-3">
+                <a onclick="categoryBasic()"><img src="img/categoria1.png" id="initial"></a>
+            </div>
+            <div class="col-3">
+                <a onclick="categoryIntermediate()"><img src="img/categoria2.png" id="intermediate">
+                </div></a>
+    
+            <div class="col-3">
+                <a onclick="categoryAdvanced()"><img src="img/categoria3.png" id="advanced"></a>
+            </div>
+    
+        </div>
+    </div>
+    
+</div>
+
+<!--Products-->
+
+<div class="small-container">
+    <h2>Products</h2>
+
+    <div class="row">
+
+        <div class="col-4 advanced">
+            <a href="product-details/product-details1.html"><img src="img/product1.jpg"></a>
+            <a href="product-details/product-details1.html"><h4>Programmable computer for kids |
+                wifi | sensors</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$89.90</p>
+        </div>
+
+        <div class="col-4 intermediate">
+            <a href="product-details/product-details2.html"><img src="img/product2.jpg"></a>
+            <a href="product-details/product-details2.html"><h4>Metal construction robot kit</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$79.00</p>
+        </div>
+
+        <div class="col-4 basic">
+            <a href="product-details/product-details3.html"><img src="img/product3.jpg"></a>
+            <a href="product-details/product-details3.html"><h4>Coding Robot Toy for Children Ages 4+ Endless Fun with 7+</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$59.50</p>
+        </div>
+
+        <div class="col-4 basic">
+            <a href="product-details/product-details4.html"><img src="img/product4.jpg"></a>
+            <a href="product-details/product-details4.html"><h4>Coding Robot for Kids Ages 6+, Endless Fun with 10+</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$129.00</p>
+        </div>
+
+        <div class="col-4 basic">
+            <a href="product-details/product-details5.html"><img src="img/product5.jpg"></a>
+            <a href="product-details/product-details5.html"><h4>Coding Kit, Educational Programming Learning Science</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$140.00</p>
+        </div>
+
+        <div class="col-4 intermediate">
+            <a href="product-details/product-details6.html"><img src="img/product6.jpg"></a>
+            <a href="product-details/product-details6.html"><h4>Lego Robot Science Kit</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$214.00</p>
+        </div>
+
+        <div class="col-4 intermediate">
+            <a href="product-details/product-details7.html"><img src="img/product7.jpg"></a>
+            <a href="product-details/product-details7.html"><h4>Robot Remot Control Kit (405 piezas)</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$162.00</p>
+        </div>
+
+        <div class="col-4 intermediate">
+            <a href="product-details/product-details8.html"><img src="img/product8.jpg"></a>
+            <a href="product-details/product-details8.html"><h4>Kits-Tracked Car/Robot/Tank</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$90.00</p>
+        </div>
+
+        <div class="col-4" id="advanced">
+            <a href="product-details/product-details9.html"><img src="img/product9.jpg"></a>
+            <a href="product-details/product-details9.html"><h4>Drone Builder Kit and Circuit Drawing Basic Kit Bundle</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$60.90</p>
+        </div>
+
+        <div class="col-4 intermediate">
+            <a href="product-details/product-details10.html"><img src="img/product10.jpg"></a>
+            <a href="product-details/product-details10.html"><h4>Building Block Car Kit (3 in 1)</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$82.90</p>
+        </div>
+
+        <div class="col-4" id="advanced">
+            <a href="product-details/product-details11.html"><img src="img/product11.jpg"></a>
+            <a href="product-details/product-details11.html"><h4>Kit for Raspberry Pi 4 3 Model B+/B, STEAM Crawling Robot, OpenCV Target Tracking, Video Transmission, Raspberry Pi Robot</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$99.90</p>
+        </div>
+
+        <div class="col-4 basic">
+            <a href="product-details/product-details12.html"><img src="img/product12.jpg"></a>
+            <a href="product-details/product-details12.html"><h4>4M Kidzrobotix Spider Robot</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$85.00</p>
+        </div>
+
+        <div class="col-4 basic">
+            <a href="product-details/product-details13.html"><img src="img/product13.jpg"></a>
+            <a href="product-details/product-details13.html"><h4>Sntieecr 4 Set Robotic Science Kits, Electric DC Motor Assembly</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$29.00</p>
+        </div>
+
+        <div class="col-4 intermediate">
+            <a href="product-details/product-details14.html"><img src="img/product14.jpg"></a>
+            <a href="product-details/product-details14.html"><h4>11 in 1 Solar Robot Science Experiment Kit for Kids Ages 8-12</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$39.00</p>
+        </div>
+
+        <div class="col-4 intermediate">
+            <a href="product-details/product-details15.html"><img src="img/product15.jpg"></a>
+            <a href="product-details/product-details15.html"><h4>Unicornbot Kit-App-Enabled Building & Coding Stem</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$186.00</p>
+        </div>
+
+        <div class="col-4 advanced">
+            <a href="product-details/product-details16.html"><img src="img/product16.jpg"></a>
+            <a href="product-details/product-details16.html"><h4>LEGO Mindstorms EV3 Robot Kit</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$325.50</p> 
+        </div>
+    </div>
+
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>&#8594;</span>
+    </div>
+
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS Movile Phone</p>
+
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+                
+            </div>
+
+            <div class="footer-col-2">
+                <img src="img/Droid-Go!-white.png">
+                <p>Propelling the creators of a new world</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="" target="_blank">Facebook</a></li>
+                    <li><a href="" target="_blank">Twitter</a></li>
+                    <li><a href="" target="_blank">YouTube</a></li>
+                    <li><a href="" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copy">Copyright &#169; 2021 - Academia Geek</p>
+        <hr>
+        <p class="copy"><strong>Credits:</strong> Icons by flaticon.es || Pics products by amazon.com || Pics users by sp.depositphotos.com/</p>
+    </div>
+</div>
+
+ 
+</body>
+</html>
