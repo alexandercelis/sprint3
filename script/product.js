@@ -30,12 +30,9 @@ var cat2 = document.querySelector(".intermediate");
 var cat3 = document.querySelector(".advanced");
 
 function categoryBasic(){
-    alert("function")
     if(cat1.style.display == "none"){
-        alert("if")
         for(let i = 0; i <= cat1.length; i++) {
             cat1[i].style.display = "block";
-            alert("estas en for")
         }
         for(let i = 0; i <= cat2.length; i++) {
             cat2[i].style.display = "none";
